@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Pietra Moroni</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="profile-img-wrapper">
+                <img src="assets/eu.jpg" alt="Pietra Moroni" class="profile-img">
+            </div>
+            <div class="hero-info">
+                <span class="greeting">Olá, eu sou a</span>
+                <h1 class="name">Pietra Moroni</h1>
+                <p class="role">Desenvolvedora de Sistemas & Jovem Aprendiz</p>
+                <div class="badges">
+                    <span class="badge"><i class="fa-solid fa-cake-candles"></i> 17 anos</span>
+                    <span class="badge"><i class="fa-solid fa-graduation-cap"></i> SENAI (Último Semestre)</span>
+                    <span class="badge"><i class="fa-solid fa-school"></i> 3º Ano Ensino Médio</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-card">
+                <p>
+                    Tenho 17 anos, estou no terceiro ano do ensino médio e cursando o último semestre do curso técnico em 
+                    <strong>Desenvolvimento de Sistemas pelo SENAI</strong>. Atualmente, atuo como 
+                    <strong>Jovem Aprendiz em DS na empresa Fernandez Papel e Indústria</strong>.
+                </p>
+                <p>
+                    Sou apaixonada por tecnologia e inovação, constantemente buscando aperfeiçoar minhas habilidades em 
+                    desenvolvimento mobile e web full-stack.
+                </p>
+                <div class="qualities">
+                    <span class="quality-tag"><i class="fa-solid fa-bullseye"></i> Determinação</span>
+                    <span class="quality-tag"><i class="fa-solid fa-folder-tree"></i> Organização</span>
+                    <span class="quality-tag"><i class="fa-solid fa-lightbulb"></i> Proatividade</span>
+                    <span class="quality-tag"><i class="fa-solid fa-users"></i> Trabalho em Equipe</span>
+                    <span class="quality-tag"><i class="fa-solid fa-arrows-rotate"></i> Adaptabilidade</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills section">
+        <div class="container">
+            <h2 class="section-title">Habilidades & Tecnologias</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt skill-icon"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code skill-icon"></i>
+                    <span>JSON</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-node-js skill-icon"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database skill-icon"></i>
+                    <span>MySQL / Prisma</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-mobile-screen-button skill-icon"></i>
+                    <span>Flutter / Dart</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-github skill-icon"></i>
+                    <span>Git / GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/cep.png" alt="Flutter CEP" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flutter CEP</h3>
+                        <p class="project-desc">Cadastro e gerenciamento local de pessoas com consulta automática de endereço via CEP (API ViaCEP). Possui persistência via shared_preferences, suporte a tema claro/escuro e menu lateral.</p>
+                        <div class="project-techs">
+                            <span>Flutter</span><span>Dart</span><span>API ViaCEP</span><span>SharedPreferences</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/flutter_cep_2026/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="assets/apk/cep/app-release.apk" download="app_cep.apk" class="btn btn-apk"><i class="fa-solid fa-download"></i> Baixar APK</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/atividades.png" alt="Gerenciamento de Turmas" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Gerenciamento de Turmas e Atividades</h3>
+                        <p class="project-desc">Sistema Full-Stack completo com autenticação de professores, gerenciamento de turmas e atividades, regras de negócio para exclusão e banco de dados MySQL via Prisma ORM.</p>
+                        <div class="project-techs">
+                            <span>Node.js</span><span>Express</span><span>Prisma</span><span>MySQL</span><span>HTML/CSS/JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/escolaavaliacao/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/foto.png" alt="Momentos (Flutter)" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Meus Momentos </h3>
+                        <p class="project-desc">Aplicativo para registro de momentos fotográficos tirando fotos pela câmera do dispositivo, adicionando anotações e visualizando em grade com data e hora. Possui compartilhamento e tema customizado.</p>
+                        <div class="project-techs">
+                            <span>Flutter</span><span>image_picker</span><span>SharedPreferences</span><span>share_plus</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/desafio_foto_flutter/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="assets/apk/foto/app-release.apk" download="app_momentos.apk" class="btn btn-apk"><i class="fa-solid fa-download"></i> Baixar APK</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/hotel.png" alt="Hotel DB" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hotel DB - Gestão de Reservas</h3>
+                        <p class="project-desc">Sistema web para cadastro, listagem e gestão de quartos e reservas de hotel integrado com API Node.js e banco de dados MySQL via Prisma ORM.</p>
+                        <div class="project-techs">
+                            <span>Node.js</span><span>Express</span><span>Prisma</span><span>MySQL</span><span>JS Async</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/Prova_FullStack_Hotel/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/estacionamernto.png" alt="Estacionamento Pro" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Estacionamento Pro</h3>
+                        <p class="project-desc">Sistema web para controle de fluxo de veículos em estacionamentos, permitindo cadastro detalhado de frotas e monitoramento de tempo com cálculo automático de valores.</p>
+                        <div class="project-techs">
+                            <span>Node.js</span><span>Prisma</span><span>MySQL</span><span>CSS Flexbox</span><span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/senai-full-stack-fork/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/cafe.png" alt="Cafeteria Volta às Aulas" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Volta às Aulas Cafeteria</h3>
+                        <p class="project-desc">Website responsivo e temático desenvolvido para uma cafeteria, apresentando cardápio digital interativo, história da loja e área de contato estilizada.</p>
+                        <div class="project-techs">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/site_voltaasaulas_cafeteria" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://piemoroni.github.io/site_voltaasaulas_cafeteria/" target="_blank" class="btn btn-pages"><i class="fa-solid fa-globe"></i> Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/clima.png" alt="App do Clima" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Consulta de Clima Tempo</h3>
+                        <p class="project-desc">Aplicação web interativa para consulta em tempo real de condições meteorológicas de cidades ao redor do mundo através de consumo de API REST de clima.</p>
+                        <div class="project-techs">
+                            <span>JavaScript ES6</span><span>Fetch API</span><span>HTML5</span><span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/clima" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://piemoroni.github.io/clima/" target="_blank" class="btn btn-pages"><i class="fa-solid fa-globe"></i> Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/pedra.png" alt="Pedra Papel Tesoura" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Jogo Pedra, Papel e Tesoura</h3>
+                        <p class="project-desc">Jogo clássico interativo desenvolvido em Front-End para prática de lógica de programação em JavaScript, manipulação de DOM e versionamento com Git.</p>
+                        <div class="project-techs">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>DOM Manipulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/Pedra_Papel_Tesoura" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://piemoroni.github.io/Pedra_Papel_Tesoura/" target="_blank" class="btn btn-pages"><i class="fa-solid fa-globe"></i> Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/daily.png" alt="Daily Check" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Daily Check</h3>
+                        <p class="project-desc">Aplicação Full-Stack de rotina diária que integra controle de tarefas pessoais com verificação em tempo real do clima para planejamento do dia.</p>
+                        <div class="project-techs">
+                            <span>Node.js</span><span>Express</span><span>Prisma</span><span>MySQL</span><span>Weather API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/FullStack_Dailycheck/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/copa.png" alt="Álbum da Copa" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Álbum de Figurinhas da Copa</h3>
+                        <p class="project-desc">Aplicação web com BaaS (Firebase) para gerenciamento de figurinhas da Copa do Mundo. Conta com autenticação do Google, salvamento em tempo real no Firestore e Firebase Hosting.</p>
+                        <div class="project-techs">
+                            <span>Firebase Auth</span><span>Cloud Firestore</span><span>Firebase Hosting</span><span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/SiteCopa2026" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://piemoroni.github.io/SiteCopa2026/" target="_blank" class="btn btn-pages"><i class="fa-solid fa-globe"></i> Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/musica.png" alt="Spotify Sesi" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Spotify Sesi (Player de Músicas)</h3>
+                        <p class="project-desc">Player de música interativo inspirado na interface do Spotify com consumo de API de música para pesquisa de faixas, reprodução de trechos e visualização de álbuns.</p>
+                        <div class="project-techs">
+                            <span>HTML5</span><span>CSS Grid</span><span>JavaScript</span><span>Apple Music API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/spotify_sesi" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://piemoroni.github.io/spotify_sesi/" target="_blank" class="btn btn-pages"><i class="fa-solid fa-globe"></i> Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/abastecimento.png" alt="Aplicativo Veículos" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Controle de Veículos e Abastecimento</h3>
+                        <p class="project-desc">Aplicativo em Flutter para controle e registro de abastecimentos. Suporta armazenamento local persistente no dispositivo e alternância entre tema claro e escuro.</p>
+                        <div class="project-techs">
+                            <span>Flutter</span><span>Dart</span><span>Path Provider</span><span>SharedPreferences</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/atividade_flutter_veiculos/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="assets/apk/estacionamento/app_veiculos.apk" download="app_veiculos.apk" class="btn btn-apk"><i class="fa-solid fa-download"></i> Baixar APK</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/agua.png" alt="Aplicativo Água" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Aplicativo Água </h3>
+                        <p class="project-desc">App mobile para monitoramento e cálculo de meta diária de ingestão de água com base no peso corporal. Gera dados em formato CSV e armazena histórico localmente.</p>
+                        <div class="project-techs">
+                            <span>Flutter</span><span>Dart</span><span>CSV Storage</span><span>SharedPreferences</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/atividade_flutter_agua/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/caminhada.png" alt="Aplicativo Caminhada" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Aplicativo Caminhada</h3>
+                        <p class="project-desc">Aplicativo para acompanhamento de caminhadas que calcula estimativa de gasto calórico a partir da distância e peso do usuário. Armazenamento local via arquivo CSV.</p>
+                        <div class="project-techs">
+                            <span>Flutter</span><span>Dart</span><span>CSV Export</span><span>Material Theme</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Piemoroni/atividade_flutter_caminhada/tree/main" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 - Desenvolvido por <strong>Pietra Moroni</strong>. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/Piemoroni" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
